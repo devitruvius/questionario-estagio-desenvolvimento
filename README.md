@@ -5,7 +5,7 @@ Este repositório contém minha solução para o questionário fornecido durante
 
 ## Questionário
 
-**1. Ao final do processamento, qual será o valor da variável SOMA?**
+1. Ao final do processamento, qual será o valor da variável SOMA?
 ```python
   # Análise da Questão 1
   
@@ -26,7 +26,7 @@ Este repositório contém minha solução para o questionário fornecido durante
 ```
 <br>
 
-**2. Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.**
+2. Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.
 ```python
   # Algoritmo Verificador de Número na Sequência Fibonacci
 
@@ -62,7 +62,7 @@ Este repositório contém minha solução para o questionário fornecido durante
 
 <br>
 
-**3. Descubra a lógica e complete o próximo elemento:**
+3. Descubra a lógica e complete o próximo elemento:
 
 a) 1, 3, 5, 7, ___
 
