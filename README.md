@@ -1,7 +1,7 @@
 # Resolução do Questionário do Estágio de Ribeirão Preto 2024
 
 ## Objetivo
-Este repositório contém minha solução para o questionário solicitado durante o processo de seleção para o Estágio de Ribeirão Preto 2024.
+Este repositório contém minha solução para o questionário fornecido durante o processo de seleção para o Estágio em Ribeirão Preto 2024.
 
 ## Questionário
 
@@ -97,7 +97,10 @@ f) 2, 10, 12, 16, 17, 18, 19, 20
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 
 ```python
-
+Na primeira ida à sala das lâmpadas, ligamos um interruptor e esperamos. 
+Na segunda, desligamos o primeiro interruptor e ligamos outro interruptor. 
+Assim, observando quais lâmpadas estão acesas, podemos identificar qual interruptor controla cada uma delas: o primeiro e o segundo.
+O terceiro deduzimos por eliminação.
 ```
 <br>
 5. Escreva um programa que inverta os caracteres de um string.
@@ -109,4 +112,31 @@ a) Essa string pode ser informada através de qualquer entrada de sua preferênc
 b) Evite usar funções prontas, como, por exemplo, reverse;
 
 ```python
+  # Algoritmo Inversor de Strings
+
+  #Declaração de Variáveis
+  def inverter_string(string):
+
+      # Determina o tamanho da string
+      tamanho = len(string)
+
+      # Inicializa uma string vazia para armazenar a string invertida
+      string_invertida = ''
+
+      # Itera pelos índices da string de trás para frente
+      for i in range(tamanho - 1, -1, -1):
+
+          # Adiciona o caractere atual ao início da string invertida
+          string_invertida += string[i]
+
+      return string_invertida
+  
+  # Solicita ao usuário que digite uma string para inverter
+  minha_string = input("Digite uma string para inverter: ")
+
+  # Chama a função inverter_string passando a string fornecida como argumento
+  string_invertida = inverter_string(minha_string)
+
+  # Imprime a string invertida
+  print("String invertida:", string_invertida)
 ```
