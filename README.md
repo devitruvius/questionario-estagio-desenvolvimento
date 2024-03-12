@@ -122,26 +122,26 @@ b) Evite usar funções prontas, como, por exemplo, reverse;
   #Declaração de Variáveis
   def inverter_string(string):
 
-      # Determina o tamanho da string
+      # Determinando o tamanho da string
       tamanho = len(string)
 
-      # Inicializa uma string vazia para armazenar a string invertida
+      # Inicializando uma string vazia para armazenar a string invertida
       string_invertida = ''
 
-      # Itera pelos índices da string de trás para frente
+      # Iterando pelos índices da string de trás para frente
       for i in range(tamanho - 1, -1, -1):
 
-          # Adiciona o caractere atual ao início da string invertida
+          # Adicionando o caractere atual ao início da string invertida
           string_invertida += string[i]
 
       return string_invertida
   
-  # Solicita ao usuário que digite uma string para inverter
+  # Solicitando ao usuário que digite uma string para inverter
   minha_string = input("Digite uma string para inverter: ")
 
-  # Chama a função inverter_string passando a string fornecida como argumento
+  # Chamando a função inverter_string passando a string fornecida como argumento
   string_invertida = inverter_string(minha_string)
 
-  # Imprime a string invertida
+  # Imprimindo a string invertida
   print("String invertida:", string_invertida)
 ```
