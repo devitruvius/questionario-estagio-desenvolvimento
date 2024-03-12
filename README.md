@@ -3,7 +3,7 @@
  </div>
 
 ## Objetivo
-Este repositório contém minha solução para o questionário fornecido durante o processo de seleção para o Estágio em Target Sistemas.
+Este repositório contém minha solução para o questionário fornecido durante o processo de seleção para o Estágio em Desenvolvimento - Ribeirão Preto.
 
 ## Questionário
 
