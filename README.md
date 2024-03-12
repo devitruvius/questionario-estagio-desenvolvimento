@@ -1,4 +1,6 @@
-# Resolução do Questionário do Estágio em Target Sistemas
+<div>
+  <img src="https://github.com/devitruvius/profile-pictures/blob/main/questionario-estagio-desenvolvimento.png">
+ </div>
 
 ## Objetivo
 Este repositório contém minha solução para o questionário fornecido durante o processo de seleção para o Estágio em Target Sistemas.
