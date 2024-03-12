@@ -9,7 +9,7 @@ Este repositório contém minha solução para o questionário fornecido durante
 ```python
   # Análise da Questão 1
   
-  # Declaração de Variáveis:
+  # Declaração de Variáveis
   int INDICE = 13, SOMA = 0, K = 0;
   
   enquanto K < INDICE faça
@@ -22,7 +22,7 @@ Este repositório contém minha solução para o questionário fornecido durante
   
   }
   
-  imprimir(SOMA); # Portanto, o valor de SOMA é 91
+  imprimir(SOMA); # Portanto, o valor de SOMA será 91
 ```
 <br>
 
