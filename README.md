@@ -1,7 +1,7 @@
-# Resolução do Questionário do Estágio de Ribeirão Preto 2024
+# Resolução do Questionário do Estágio em Target Sistemas
 
 ## Objetivo
-Este repositório contém minha solução para o questionário fornecido durante o processo de seleção para o Estágio em Ribeirão Preto 2024.
+Este repositório contém minha solução para o questionário fornecido durante o processo de seleção para o Estágio em Target Sistemas.
 
 ## Questionário
 
@@ -16,13 +16,13 @@ Este repositório contém minha solução para o questionário fornecido durante
   
   {
   
-  K = K + 1; # Incrementa K em 1 a cada iteração
+  K = K + 1; # Incrementação de K em 1 a cada iteração
   
-  SOMA = SOMA + K; # Soma o valor atual de K ao valor atual de SOMA, resultando na soma dos números de 1 a 13
+  SOMA = SOMA + K; # O valor atual de K é somado ao valor atual de SOMA, resultando na soma acumulada dos números de 1 a 13
   
   }
   
-  imprimir(SOMA); # Portanto, o valor de SOMA será 91
+  imprimir(SOMA); # O valor final de SOMA deve ser 91 após a conclusão do loop
 ```
 <br>
 
@@ -32,31 +32,31 @@ Este repositório contém minha solução para o questionário fornecido durante
 
   # Declaração de Variáveis:
   def sequencia_fibonacci(n):
-      # Inicializa a sequência com os primeiros dois números da sequência de Fibonacci
+      # Inicializando a sequência com os primeiros dois números da sequência de Fibonacci
       sequencia = [0, 1]
       
-      # Continua adicionando números à sequência até que o último número seja maior ou igual a n
+      # Loop que continua adicionando números à sequência até que o último número seja maior ou igual a n
       while sequencia[-1] < n:
-          # Calcula o próximo número da sequência e o adiciona à lista
+          # Calculando o próximo número da sequência e adicionando à lista
           proximo_numero = sequencia[-1] + sequencia[-2]
           sequencia.append(proximo_numero)
       
       return sequencia
   
   def verificar_numero_fibonacci(n):
-      # Gera a sequência de Fibonacci até que o último número seja maior ou igual a n
+      # Gerando a sequência de Fibonacci até que o último número seja maior ou igual a n
       sequencia = sequencia_fibonacci(n)
       
-      # Verifica se n está na sequência gerada
+      # Verificando se n está na sequência gerada
       if n in sequencia:
           return f"O número {n} pertence à sequência de Fibonacci."
       else:
           return f"O número {n} não pertence à sequência de Fibonacci."
   
-  # Solicita ao usuário um número para verificar se pertence à sequência de Fibonacci
+  # Solicitando ao usuário um número para verificação
   numero = int(input("Digite um número para verificar se pertence à sequência de Fibonacci: "))
   
-  # Chama a função para verificar se o número pertence à sequência de Fibonacci e imprime o resultado
+  # Chamando a função para verificar se o número pertence à sequência e em seguida imprimindo o resultado
   print(verificar_numero_fibonacci(numero))
 ```
 
@@ -78,17 +78,20 @@ f) 2, 10, 12, 16, 17, 18, 19, ____
 
 ```python
 
-a) 1, 3, 5, 7, 9
+a) A lógica aqui parece ser adicionar 2 ao número anterior. Portanto, o próximo número seria 7 + 2 = 9, logo: 1, 3, 5, 7, 9.
 
-b) 2, 4, 8, 16, 32, 64, 128
+b) A lógica aqui trata de uma sequência de potências de 2. 
+Cada número é o dobro do anterior. Portanto, o próximo número seria 64 * 2 = 128, logo: 2, 4, 8, 16, 32, 64, 128.
 
-c) 0, 1, 4, 9, 16, 25, 36, 49
+c) A lógica aqui trata de uma sequência dos quadrados dos números naturais começando do zero. 
+Portanto, o próximo número seria 49, que é o quadrado de 7, logo: 0, 1, 4, 9, 16, 25, 36, 49.
 
-d) 4, 16, 36, 64, 100
+d) A lógica aqui trata de um padrão de quadrados de números pares. 
+Então, o próximo número seria 100, que é o quadrado de 10, logo: 4, 16, 36, 64, 100.
 
-e) 1, 1, 2, 3, 5, 8, 13
+e) Aqui verificamos a mesma lógica da sequência de Fibonacci. Então, o próximo número seria 8 + 5 = 13, logo: 1, 1, 2, 3, 5, 8, 13.
 
-f) 2, 10, 12, 16, 17, 18, 19, 20
+f) Não encontrei uma lógica evidente. Por ser difícil determinar com precisão o próximo elemento, achei prudente evitar dar uma resposta incorreta.
 ```
 
 <br>
